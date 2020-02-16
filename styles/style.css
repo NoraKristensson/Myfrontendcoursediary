@@ -6,8 +6,9 @@ body {
 
 screen
 
-.headerfooter {
+.topics {
     text-align: center;
+    /* cant manage to put the text in the center */
 }
 
 .Nora {
@@ -20,13 +21,26 @@ screen
     background-size: 50px;
 }
 
-th {
-    background-color: burlywood;
+table{
+    background-image: url("../img/background-beetroot.png");
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-collapse: collapse;
+    border: 1px solid black;
 }
 
-tr, td{
+th {
+    background-color: burlywood;
+    width: 25%;
+    border: 1px solid black;
+}
+
+td{
     text-align: left;
     vertical-align: top;
+    padding: 15px;
+    border: 1px solid black;
 }
 
 img { width: 200px;}

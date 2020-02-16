@@ -2,12 +2,6 @@ body {
     background-color: #FCEADE;
     color: #8e4f4a;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("../img/background-beetroot.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    flex-direction: column;
-    opacity: ;
 } 
 
 screen
@@ -22,7 +16,17 @@ screen
 
 .navigation {
     border-style: dotted;
+    background-image: url("../img/background-beetroot.png");
+    background-size: 50px;
+}
 
+th {
+    background-color: burlywood;
+}
+
+tr, td{
+    text-align: left;
+    vertical-align: top;
 }
 
 img { width: 200px;}

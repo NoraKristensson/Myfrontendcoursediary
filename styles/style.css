@@ -4,8 +4,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 } 
 
-screen
-
 .topics {
     text-align: center;
     /* cant manage to put the text in the center */
@@ -36,7 +34,7 @@ th {
     border: 1px solid black;
 }
 
-td{
+td {
     text-align: left;
     vertical-align: top;
     padding: 15px;
